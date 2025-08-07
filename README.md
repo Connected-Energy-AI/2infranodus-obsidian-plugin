@@ -1,12 +1,36 @@
 # InfraNodus Advanced Graph View Plugin for Obsidian
 
-Based on [InfraNodus AI text analysis and visualization tool](https://infranodus.com), this plugin visualizes the content of Obsidian vaults as a knowledge graph, retrieves the main topical clusters, most important ideas, and identifies the gaps between them.
-
-The built-in AI can be used to generate new ideas and research questions from your Obsidian content to bridge the gaps identified. Only the [InfraNodus](https://infranodus.com) account is needed, OpenAI API GPT-4 use is included with the InfraNodus account, so you don't need your own OpenAI keys.
-
 <p>&nbsp;</p>
 
 ![InfraNodus Obsidian plugin visualization](src/images/infranodus-obsidian-plugin-pages.gif)
+
+<p>&nbsp;</p>
+
+Based on [InfraNodus AI text analysis and visualization tool](https://infranodus.com), this plugin visualizes the content of Obsidian vaults as a knowledge graph, retrieves the main topical clusters, most important ideas, and identifies the gaps between them.
+
+The built-in AI can be used to generate new ideas and research questions from your Obsidian content to bridge the gaps identified. **You can use the plugin for free straight out of the box.** The [InfraNodus](https://infranodus.com) account is needed if you want to extend your AI quota, visualize your graph in the main version, and connect your graphs to AI workflows. OpenAI API GPT-4 use is included with the InfraNodus account, so you don't need your own OpenAI keys.
+
+<p>&nbsp;</p>
+
+## InfraNodus Graph Visualization vs. Obsidian
+
+The standard Obsidian graph view will only show the connections between the page you are viewing and all other [[backlinks]] mentioned on that page.
+
+Our default graph view is more detailed and shows connections between the concepts in your text and also between the [[backlinks]] mentioned in the same statements. **We find this approach works much better for ideation and mimicks the way our brain thinks** (following the landscape reading model). You can read more in our article on how [InfraNodus is different from Obsidian](https://support.noduslabs.com/hc/en-us/articles/5693031206812-How-does-the-backlink-syntax-work-in-InfraNodus-and-what-s-its-difference-from-LogSeq-Obsidian).
+
+However, if you like, **you can switch back to the Obsidian graph view** in the InfraNodus plugin. In order to do that, after you install it, go to the settings and:
+
+1. Set `"Single Page Processing"` to `[[Wiki Links Only]]` _(our default is `"[[Wiki Links]] and Concepts"`)_
+
+2. Set `Link Mentions To` to `Parent Page Only (Obsidian Style)` _(our default is `"each other if in the same paragraph"`)_
+
+3. Click `Save` and Reload
+
+<p>&nbsp;</p>
+
+![InfraNodus vs Obsidian graph view](src/images/infranodus-obsidian-comparison.png)
+
+<p>&nbsp;</p>
 
 <p>&nbsp;</p>
 
